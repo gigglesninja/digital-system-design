@@ -1,0 +1,29 @@
+Command line:
+   tb_spi_bonus_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50385
+
+Fri Nov 28 14:23:50 2014
+
+
+ Elaboration Time: 0.21875 sec
+
+ Current Memory Usage: 556.401 Meg
+
+ Total Signals          : 7275
+ Total Nets             : 5237
+ Total Signal Drivers   : 4395
+ Total Blocks           : 972
+ Total Primitive Blocks : 729
+ Total Processes        : 6484
+ Total Traceable Variables  : 2577
+ Total Scalar Nets and Variables : 189896
+Total Line Count : 5644
+
+ Total Simulation Time: 14.9531 sec
+
+ Current Memory Usage: 556.409 Meg
+
+Fri Nov 28 14:24:08 2014
+

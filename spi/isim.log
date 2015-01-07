@@ -1,0 +1,28 @@
+ISim log file
+Running: C:\Users\James\Desktop\iDriveSync\IDrive-Sync\spi\tb_spi_bonus_isim_par.exe -intstyle ise -gui -tclbatch isim.cmd -view C:/Users/James/Desktop/iDriveSync/IDrive-Sync/spi/sd.wcfg -wdb C:/Users/James/Desktop/iDriveSync/IDrive-Sync/spi/tb_spi_bonus_isim_par.wdb 
+ISim P.68d (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# run 1 ms
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/spi_bonus_timesim.sdf, for root module /tb_spi_bonus/uut/.
+Finished circuit initialization process.
+             7918000: PASS,got expected serial MOSI out of 55
+             8030000: PASS,got expected serial RXFIFO of 55
+            15618000: PASS,got expected serial MOSI out of 62
+            15730000: PASS,got expected serial RXFIFO of 62
+            23318000: PASS,got expected serial MOSI out of 38
+            23430000: PASS,got expected serial RXFIFO of 38
+            23480000: PASS, reading SPI DATARDY bit.
+            31218000: PASS,got expected serial MOSI out of a9
+            31330000: PASS,got expected serial RXFIFO of 56
+            38918000: PASS,got expected serial MOSI out of f3
+            39030000: PASS,got expected serial RXFIFO of 0c
+            46618000: PASS,got expected serial MOSI out of 2c
+            46730000: PASS,got expected serial RXFIFO of d3
+            46740000: All vectors done.
+            46740000: PASS, no errors during simulation.

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/Lab5/tb_lab5dpath_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_lab5dpath" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wave_markers>
+      <marker time="450028000" label="" />
+      <marker time="763125000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_lab5dpath/ordy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ordy</obj_property>
+      <obj_property name="ObjectShortName">ordy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/irdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irdy</obj_property>
+      <obj_property name="ObjectShortName">irdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/s_ordy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s_ordy</obj_property>
+      <obj_property name="ObjectShortName">s_ordy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/c_ordy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c_ordy</obj_property>
+      <obj_property name="ObjectShortName">c_ordy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[9:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[9:0]</obj_property>
+      <obj_property name="ObjectShortName">din[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/i_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_a[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/i_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_b[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/i_c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_c[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/i_result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_result[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/bd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bd[11:0]</obj_property>
+      <obj_property name="ObjectShortName">bd[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/aq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aq[11:0]</obj_property>
+      <obj_property name="ObjectShortName">aq[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/bq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bq[11:0]</obj_property>
+      <obj_property name="ObjectShortName">bq[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/add" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">add[11:0]</obj_property>
+      <obj_property name="ObjectShortName">add[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider17" type="divider">
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/lda" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lda</obj_property>
+      <obj_property name="ObjectShortName">lda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/ldb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ldb</obj_property>
+      <obj_property name="ObjectShortName">ldb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/pstate" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pstate[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/i1/p" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">p[23:0]</obj_property>
+      <obj_property name="ObjectShortName">p[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/i1/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[11:0]</obj_property>
+      <obj_property name="ObjectShortName">a[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/i1/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[11:0]</obj_property>
+      <obj_property name="ObjectShortName">b[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab5dpath/uut/mmod" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mmod[11:0]</obj_property>
+      <obj_property name="ObjectShortName">mmod[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,20 @@
+2 4 5 9       # 4 + 5 = 9
+1 4 5 9       # 4 + 5 = 9
+0 4 5 9       # 4 + 5 = 9
+2 b00 100 c00  # 0xb00 + 0x100 = 0xc00
+1 b00 100 c00  # 0xb00 + 0x100 = 0xc00, neg+neg=neg, no signed overflow
+0 b00 100 c00  # 0xb00 + 0x100 = 0xc00, no carry out, no unsigned overflow
+2 7ff 1 800   # normal add   
+1 7ff 1 7ff   # pos+pos = neg, signed overflow, clamp to most positive
+0 7ff 1 800   # 2047 + 1 = 2048, no saturation
+2 fff 1 000   # unsigned overflow back to 0
+1 fff 1 000   # -1 + 1 = 0, no saturation
+0 fff 1 fff   #unsigned overflow, clamp to maximum value
+2 800 fff 7ff # normal binary add, overflows and wraps
+1 800 fff 800 # neg+neg = pos, signed overflow, clamp to most negative
+0 800 fff fff # unsigned overflow, clamp to most positive number
+
+
+
+
+

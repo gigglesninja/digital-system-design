@@ -1,0 +1,4 @@
+verilog isim_temp "ipcore_dir/fifo.v"
+verilog isim_temp "baudgen.v"
+verilog isim_temp "uart_tx.v"
+verilog isim_temp "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

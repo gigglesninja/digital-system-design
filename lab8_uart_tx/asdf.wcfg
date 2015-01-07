@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/lab8_uart_tx/tb_uart_tx_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_uart_tx" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="29" />
+   <wave_markers>
+      <marker time="16940000000" label="" />
+      <marker time="347900000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_uart_tx/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/rden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rden</obj_property>
+      <obj_property name="ObjectShortName">rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/baud1/baud" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">baud</obj_property>
+      <obj_property name="ObjectShortName">baud</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/fifo1/dout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      <obj_property name="label">dout[7:0] fifo</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/fifo1/wr_en" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+      <obj_property name="label">wr_en fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/fifo1/rd_en" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+      <obj_property name="label">rd_en fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/control[1]" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">control[1]</obj_property>
+      <obj_property name="label">TXDONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/control[0]" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">control[0]</obj_property>
+      <obj_property name="label">TXFULL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/fifo1/full" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+      <obj_property name="label">fifo full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/baud1/period" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">period[7:0]</obj_property>
+      <obj_property name="ObjectShortName">period[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/baud1/stop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/baud1/timer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">timer[7:0]</obj_property>
+      <obj_property name="ObjectShortName">timer[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/outdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">outdata[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/txout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txout</obj_property>
+      <obj_property name="ObjectShortName">txout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/errors" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/bitcounter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bitcounter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bitcounter[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/bittimer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bittimer[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bittimer[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/pstate" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pstate[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/rd_shift" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_shift</obj_property>
+      <obj_property name="ObjectShortName">rd_shift</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/shift_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shift_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_out[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/to_shift" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">to_shift[7:0]</obj_property>
+      <obj_property name="ObjectShortName">to_shift[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_tx/uut/control" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">control[7:0]</obj_property>
+      <obj_property name="ObjectShortName">control[7:0]</obj_property>
+   </wvobject>
+</wave_config>

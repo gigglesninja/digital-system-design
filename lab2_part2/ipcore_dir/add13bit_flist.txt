@@ -1,0 +1,14 @@
+# Output products list for <add13bit>
+add13bit.asy
+add13bit.gise
+add13bit.ngc
+add13bit.sym
+add13bit.v
+add13bit.veo
+add13bit.xco
+add13bit.xise
+add13bit\doc\c_addsub_v11_0_readme.txt
+add13bit\doc\c_addsub_v11_0_vinfo.html
+add13bit\doc\ds214_addsub.pdf
+add13bit_flist.txt
+add13bit_xmdf.tcl

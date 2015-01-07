@@ -1,0 +1,11 @@
+080	100	3C0	080     #these vectors manually adjusted in LSB to account for truncation error
+00C	08B	38A	08B
+384	0C5	3D1	0D0
+0D0	07E	0E1	376
+393	0F0	0B5	072
+31D	0B2	3C7	0FD
+3FF	02C	0E6	3A9
+3FD	372	0DF	339
+0DF	0F6	30E	0A3
+33C	37D	0A8	3BC
+

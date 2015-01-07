@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/lab9_uart_rx/tb_uart_rx_isim_par.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_uart_rx" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wave_markers>
+      <marker time="83710000000" label="" />
+      <marker time="4293176000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_uart_rx/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[8:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/rden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rden</obj_property>
+      <obj_property name="ObjectShortName">rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/rxin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxin</obj_property>
+      <obj_property name="ObjectShortName">rxin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/errors" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/shiftdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shiftdata[9:0]</obj_property>
+      <obj_property name="ObjectShortName">shiftdata[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/expecteddata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">expecteddata[8:0]</obj_property>
+      <obj_property name="ObjectShortName">expecteddata[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/j" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/CLK_PERIOD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/UUT_PERIOD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">UUT_PERIOD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">UUT_PERIOD[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/CLK16X_PERIOD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK16X_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK16X_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/CHARACTER_PERIOD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CHARACTER_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CHARACTER_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/uut/finish" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">finish</obj_property>
+      <obj_property name="ObjectShortName">finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/uut/shift" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shift[9:0]</obj_property>
+      <obj_property name="ObjectShortName">shift[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/uut/frame_error" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">frame_error[8:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_error[8:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/uut/bitcounter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bitcounter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bitcounter[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/uut/bittimer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bittimer[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bittimer[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/uut/\ld_shift_SW0/O " type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">\ld_shift_SW0/O </obj_property>
+      <obj_property name="ObjectShortName">\ld_shift_SW0/O </obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/uut/loaded_1106" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loaded_1106</obj_property>
+      <obj_property name="ObjectShortName">loaded_1106</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart_rx/uut/ld_shift_2286" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld_shift_2286</obj_property>
+      <obj_property name="ObjectShortName">ld_shift_2286</obj_property>
+   </wvobject>
+</wave_config>

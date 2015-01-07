@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;ssg&lt;0&gt;&quot; LOC = &quot;L14&quot;;&gt; [Basys2.ucf(15)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ssg&lt;0&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;ssg&lt;0&gt;&quot; LOC = &quot;L14&quot;;&gt; [Basys2.ucf(15)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;ssg&lt;1&gt;&quot; LOC = &quot;H12&quot;;&gt; [Basys2.ucf(16)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ssg&lt;1&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;ssg&lt;1&gt;&quot; LOC = &quot;H12&quot;;&gt; [Basys2.ucf(16)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;ssg&lt;2&gt;&quot; LOC = &quot;N14&quot;;&gt; [Basys2.ucf(17)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ssg&lt;2&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;ssg&lt;2&gt;&quot; LOC = &quot;N14&quot;;&gt; [Basys2.ucf(17)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;ssg&lt;3&gt;&quot; LOC = &quot;N11&quot;;&gt; [Basys2.ucf(18)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ssg&lt;3&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;ssg&lt;3&gt;&quot; LOC = &quot;N11&quot;;&gt; [Basys2.ucf(18)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;ssg&lt;4&gt;&quot; LOC = &quot;P12&quot;;&gt; [Basys2.ucf(19)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ssg&lt;4&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;ssg&lt;4&gt;&quot; LOC = &quot;P12&quot;;&gt; [Basys2.ucf(19)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;ssg&lt;5&gt;&quot; LOC = &quot;L13&quot;;&gt; [Basys2.ucf(20)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ssg&lt;5&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;ssg&lt;5&gt;&quot; LOC = &quot;L13&quot;;&gt; [Basys2.ucf(20)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;ssg&lt;6&gt;&quot; LOC = &quot;M12&quot;;&gt; [Basys2.ucf(21)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ssg&lt;6&gt;</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;ssg&lt;6&gt;&quot; LOC = &quot;M12&quot;;&gt; [Basys2.ucf(21)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;fsm&quot; LOC = &quot;L3&quot;;&gt; [Basys2.ucf(46)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">fsm</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;fsm&quot; LOC = &quot;L3&quot;;&gt; [Basys2.ucf(46)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+</messages>
+

@@ -1,0 +1,2 @@
+verilog work "ipcore_dir/mult12x12.v"
+verilog work "lab5dpath.v"

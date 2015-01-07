@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/lab8_uart_tx/tb_uart_tx_isim_beh.exe" -prj "C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/lab8_uart_tx/tb_uart_tx_beh.prj" "work.tb_uart_tx" "work.glbl" 

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/lab8/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/lab8/xst"
+elaborate
+-ifn baudgen.prj
+-ifmt mixed

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/newuart/tb_uart_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_uart" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/tb_uart/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/shiftdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shiftdata[9:0]</obj_property>
+      <obj_property name="ObjectShortName">shiftdata[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/to_tx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">to_tx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">to_tx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/pstate" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pstate[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pstate[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/addmux" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">addmux[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addmux[1:0]</obj_property>
+      <obj_property name="label">addmux[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/RX/control" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">control[7:0]</obj_property>
+      <obj_property name="ObjectShortName">control[7:0]</obj_property>
+      <obj_property name="label">control[7:0] RX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/wr_rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_rx</obj_property>
+      <obj_property name="ObjectShortName">wr_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/rd_rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_rx</obj_property>
+      <obj_property name="ObjectShortName">rd_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/wr_tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_tx</obj_property>
+      <obj_property name="ObjectShortName">wr_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/rd_tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_tx</obj_property>
+      <obj_property name="ObjectShortName">rd_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/RX/fifo1/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[8:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/ld" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld</obj_property>
+      <obj_property name="ObjectShortName">ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/cache" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cache[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cache[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/TX/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/TX/shift_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shift_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/TX/control" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">control[7:0]</obj_property>
+      <obj_property name="ObjectShortName">control[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/u1/TX/txout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txout</obj_property>
+      <obj_property name="ObjectShortName">txout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+</wave_config>

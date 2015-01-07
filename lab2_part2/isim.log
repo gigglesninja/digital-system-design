@@ -1,0 +1,181 @@
+ISim log file
+Running: C:\Users\James\Desktop\iDriveSync\IDrive-Sync\DSD LAB\lab2_part2\tb_satadd_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/lab2_part2/tb_satadd_isim_beh.wdb 
+ISim P.68d (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+PASS, mode: 2, a: 004, b: 005, y: 009
+
+PASS, mode: 1, a: 004, b: 005, y: 009
+
+PASS, mode: 1, a: 004, b: 005, y: 009
+
+PASS, mode: 2, a: b00, b: 100, y: c00
+
+PASS, mode: 1, a: b00, b: 100, y: c00
+
+PASS, mode: 1, a: b00, b: 100, y: c00
+
+PASS, mode: 2, a: 7ff, b: 001, y: 800
+
+PASS, mode: 1, a: 7ff, b: 001, y: 7ff
+
+PASS, mode: 0, a: 7ff, b: 001, y: 800
+
+PASS, mode: 2, a: fff, b: 001, y: 000
+
+PASS, mode: 1, a: fff, b: 001, y: 000
+
+PASS, mode: 0, a: fff, b: 001, y: fff
+
+PASS, mode: 2, a: 800, b: fff, y: 7ff
+
+PASS, mode: 1, a: 800, b: fff, y: 800
+
+PASS, mode: 0, a: 800, b: fff, y: fff
+
+PASS, mode: 0, a: 86c, b: fde, y: fff
+
+PASS, mode: 0, a: 597, b: ecc, y: fff
+
+PASS, mode: 0, a: f93, b: 539, y: fff
+
+PASS, mode: 0, a: f68, b: d06, y: fff
+
+PASS, mode: 0, a: 1a3, b: 2fc, y: 49f
+
+PASS, mode: 0, a: 551, b: a5c, y: fad
+
+PASS, mode: 0, a: d6d, b: f33, y: fff
+
+PASS, mode: 0, a: 0a8, b: c50, y: cf8
+
+PASS, mode: 0, a: 916, b: de9, y: fff
+
+PASS, mode: 0, a: d7b, b: 38a, y: fff
+
+PASS, mode: 0, a: a10, b: 8a8, y: fff
+
+PASS, mode: 0, a: f96, b: 9f9, y: fff
+
+PASS, mode: 0, a: 6f0, b: 0ed, y: 7dd
+
+PASS, mode: 0, a: 5e5, b: e82, y: fff
+
+PASS, mode: 0, a: d34, b: 564, y: fff
+
+PASS, mode: 1, a: 893, b: ba1, y: 800
+
+PASS, mode: 1, a: af1, b: eb7, y: 9a8
+
+PASS, mode: 1, a: a04, b: c54, y: 800
+
+PASS, mode: 1, a: 84e, b: a98, y: 800
+
+PASS, mode: 1, a: 967, b: 8e9, y: 800
+
+PASS, mode: 1, a: af7, b: ce5, y: 800
+
+PASS, mode: 1, a: 92d, b: c4b, y: 800
+
+PASS, mode: 1, a: acf, b: bcb, y: 800
+
+PASS, mode: 1, a: bd6, b: c76, y: 84c
+
+PASS, mode: 1, a: be0, b: d8b, y: 96b
+
+PASS, mode: 1, a: a97, b: 864, y: 800
+
+PASS, mode: 1, a: aa9, b: e2f, y: 8d8
+
+PASS, mode: 1, a: a03, b: e78, y: 87b
+
+PASS, mode: 1, a: 9ec, b: b94, y: 800
+
+PASS, mode: 1, a: 92a, b: ccb, y: 800
+
+PASS, mode: 1, a: 50b, b: 6d3, y: 7ff
+
+PASS, mode: 1, a: 5af, b: 405, y: 7ff
+
+PASS, mode: 1, a: 747, b: 4a5, y: 7ff
+
+PASS, mode: 1, a: 656, b: 02d, y: 683
+
+PASS, mode: 1, a: 568, b: 2ea, y: 7ff
+
+PASS, mode: 1, a: 654, b: 2cc, y: 7ff
+
+PASS, mode: 1, a: 400, b: 301, y: 701
+
+PASS, mode: 1, a: 589, b: 2a5, y: 7ff
+
+PASS, mode: 1, a: 426, b: 0df, y: 505
+
+PASS, mode: 1, a: 436, b: 53a, y: 7ff
+
+PASS, mode: 1, a: 79f, b: 5cc, y: 7ff
+
+PASS, mode: 1, a: 691, b: 1ce, y: 7ff
+
+PASS, mode: 1, a: 6a8, b: 144, y: 7ec
+
+PASS, mode: 1, a: 65b, b: 010, y: 66b
+
+PASS, mode: 1, a: 4f5, b: 6c6, y: 7ff
+
+PASS, mode: 1, a: e1c, b: 134, y: f50
+
+PASS, mode: 1, a: 8f8, b: 7ef, y: 0e7
+
+PASS, mode: 1, a: dfe, b: 17a, y: f78
+
+PASS, mode: 1, a: 90f, b: 318, y: c27
+
+PASS, mode: 1, a: b8b, b: 7d3, y: 35e
+
+PASS, mode: 1, a: ee8, b: 6dc, y: 5c4
+
+PASS, mode: 1, a: d20, b: 7e0, y: 500
+
+PASS, mode: 1, a: b7a, b: 24f, y: dc9
+
+PASS, mode: 1, a: c9f, b: 5b9, y: 258
+
+PASS, mode: 1, a: 995, b: 36f, y: d04
+
+PASS, mode: 1, a: cc3, b: 40c, y: 0cf
+
+PASS, mode: 1, a: 812, b: 107, y: 919
+
+PASS, mode: 1, a: 9fb, b: 194, y: b8f
+
+PASS, mode: 1, a: 817, b: 6eb, y: f02
+
+PASS, mode: 1, a: ac4, b: 40e, y: ed2
+
+PASS, mode: 1, a: ac4, b: 40e, y: ed2
+
+PASS, mode: 1, a: ac4, b: 40e, y: ed2
+
+PASS, mode: 1, a: ac4, b: 40e, y: ed2
+
+PASS, mode: 1, a: ac4, b: 40e, y: ed2
+
+PASS, mode: 1, a: ac4, b: 40e, y: ed2
+
+PASS, mode: 1, a: ac4, b: 40e, y: ed2
+
+PASS, mode: 1, a: ac4, b: 40e, y: ed2
+
+PASS, mode: 1, a: ac4, b: 40e, y: ed2
+
+PASS: All vectors pased.
+

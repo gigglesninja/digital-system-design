@@ -1,0 +1,15 @@
+# Output products list for <mult12x12l2>
+_xmsgs\pn_parser.xmsgs
+mult12x12l2.asy
+mult12x12l2.gise
+mult12x12l2.ngc
+mult12x12l2.sym
+mult12x12l2.v
+mult12x12l2.veo
+mult12x12l2.xco
+mult12x12l2.xise
+mult12x12l2\doc\mult_gen_ds255.pdf
+mult12x12l2\doc\mult_gen_v11_2_readme.txt
+mult12x12l2\doc\mult_gen_v11_2_vinfo.html
+mult12x12l2_flist.txt
+mult12x12l2_xmdf.tcl

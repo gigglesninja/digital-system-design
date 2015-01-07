@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ipcore_dir/mult12x12l3.v</arg>&quot; line <arg fmt="%d" index="2">57</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">mult12x12l3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ipcore_dir/mult12x12l3.v</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">mult12x12l3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">ipcore_dir/mult12x12l3.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">mult12x12l3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">t3&lt;23&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">t3&lt;10:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">t2&lt;23&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">t2&lt;10:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">t1&lt;23&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">t1&lt;10:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">s2&lt;1:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">p3</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">p2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">p1</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">SYN_BLACK_BOX</arg> <arg fmt="%s" index="2">1</arg>&quot;: Did not attach to <arg fmt="%s" index="3">i1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">SYN_NOPRUNE</arg> <arg fmt="%s" index="2">1</arg>&quot;: Did not attach to <arg fmt="%s" index="3">i1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">SYN_BLACK_BOX</arg> <arg fmt="%s" index="2">1</arg>&quot;: Did not attach to <arg fmt="%s" index="3">i2</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">SYN_NOPRUNE</arg> <arg fmt="%s" index="2">1</arg>&quot;: Did not attach to <arg fmt="%s" index="3">i2</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">SYN_BLACK_BOX</arg> <arg fmt="%s" index="2">1</arg>&quot;: Did not attach to <arg fmt="%s" index="3">i3</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">SYN_NOPRUNE</arg> <arg fmt="%s" index="2">1</arg>&quot;: Did not attach to <arg fmt="%s" index="3">i3</arg>.
+</msg>
+
+</messages>
+

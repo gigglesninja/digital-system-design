@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/mult12x12l2.v"
+verilog work "lab4dpath.v"
+verilog work "tb_lab4dpath.v"
+verilog work "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

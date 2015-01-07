@@ -1,0 +1,48 @@
+ISim log file
+Running: C:\Users\James\Desktop\iDriveSync\IDrive-Sync\DSD LAB\Lab4\tb_lab4dpath_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -view C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/Lab4/lab4.wcfg -wdb C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/Lab4/tb_lab4dpath_isim_beh.wdb 
+ISim P.68d (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# run 1150 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+          0 PASS, x1: 00000080, x2: 00000100, x3: 000003c0, y: 080
+
+          0 PASS, x1: 000000e2, x2: 00000386, x3: 0000031d, y: 3b4
+
+          0 PASS, x1: 000000ef, x2: 00000381, x3: 000000c7, y: 2d5
+
+          0 PASS, x1: 00000099, x2: 000000fc, x3: 00000024, y: 03f
+
+          0 PASS, x1: 000003b9, x2: 000000ff, x3: 000003a5, y: 0f0
+
+          0 PASS, x1: 000003a9, x2: 000003b8, x3: 0000031a, y: 071
+
+          0 PASS, x1: 00000376, x2: 00000031, x3: 00000024, y: 051
+
+          0 PASS, x1: 000003b5, x2: 00000301, x3: 000003f5, y: 38b
+
+          0 PASS, x1: 0000034c, x2: 00000359, x3: 0000005a, y: 3c4
+
+          0 PASS, x1: 0000037f, x2: 00000038, x3: 00000015, y: 059
+
+          0 PASS, x1: 000000a9, x2: 0000005c, x3: 0000035d, y: 036
+
+          0 PASS, x1: 00000393, x2: 00000096, x3: 00000341, y: 0f3
+
+          0 PASS, x1: 000003bd, x2: 000003f0, x3: 00000061, y: 3e7
+
+          0 PASS, x1: 00000011, x2: 0000032d, x3: 000000e5, y: 301
+
+          0 PASS, x1: 00000373, x2: 00000310, x3: 000003d1, y: 3c8
+
+          0 PASS, x1: 00000066, x2: 000000a6, x3: 000003cf, y: 04d
+
+          0 PASS, x1: 000003b2, x2: 000000f9, x3: 0000030d, y: 13c
+
+          0 PASS, x1: 00000314, x2: 0000008e, x3: 0000031a, y: 141
+

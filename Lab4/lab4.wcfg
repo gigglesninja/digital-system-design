@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/Lab4/tb_lab4dpath_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_lab4dpath" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wave_markers>
+      <marker time="724712000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_lab4dpath/x1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">x1[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab4dpath/x2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">x2[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab4dpath/x3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x3[9:0]</obj_property>
+      <obj_property name="ObjectShortName">x3[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab4dpath/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">y[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_lab4dpath/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+</wave_config>

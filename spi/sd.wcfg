@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/James/Desktop/iDriveSync/IDrive-Sync/spi/tb_spi_bonus_isim_par.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_spi_bonus" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/tb_spi_bonus/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/mosi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/sclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/rden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rden</obj_property>
+      <obj_property name="ObjectShortName">rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/miso" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/invert_mosi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">invert_mosi</obj_property>
+      <obj_property name="ObjectShortName">invert_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/outdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">outdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/all_vectors_done" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">all_vectors_done[31:0]</obj_property>
+      <obj_property name="ObjectShortName">all_vectors_done[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/checktrigger" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">checktrigger</obj_property>
+      <obj_property name="ObjectShortName">checktrigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/checkdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">checkdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">checkdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/uut/control" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">control[7:0]</obj_property>
+      <obj_property name="ObjectShortName">control[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/uut/shiftin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shiftin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">shiftin[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/uut/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_bonus/uut/spiclk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">spiclk[6:0]</obj_property>
+      <obj_property name="ObjectShortName">spiclk[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

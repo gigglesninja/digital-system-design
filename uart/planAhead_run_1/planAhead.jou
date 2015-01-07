@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Mon Oct 27 17:55:46 2014
+# Process ID: 4992
+# Log file: C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/uart/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/uart/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/uart/pa.fromNetlist.tcl}

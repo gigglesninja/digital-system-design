@@ -1,0 +1,6 @@
+verilog work "../../../../jct322_lab8/lab8/ipcore_dir/fifo.v"
+verilog work "ipcore_dir/fifo_rx.v"
+verilog work "baudgen.v"
+verilog work "../../../../jct322_lab8/lab8/uart_tx.v"
+verilog work "uart_rx.v"
+verilog work "uart.v"

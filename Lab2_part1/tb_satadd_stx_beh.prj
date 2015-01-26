@@ -1,0 +1,3 @@
+verilog isim_temp "satadd.v"
+verilog isim_temp "tb_satadd.v"
+verilog isim_temp "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

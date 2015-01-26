@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/James/Desktop/iDriveSync/IDrive-Sync/DSD LAB/Lab6bonus/tb_ledtimer_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_ledtimer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_ledtimer/u1/d1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ledtimer/u1/d2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ledtimer/u1/d3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ledtimer/u1/d4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ledtimer/u1/d5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ledtimer/u1/d6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ledtimer/u1/d7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ledtimer/u1/d8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d8[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ledtimer/u1/led1/timer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">timer[31:0]</obj_property>
+      <obj_property name="ObjectShortName">timer[31:0]</obj_property>
+   </wvobject>
+</wave_config>

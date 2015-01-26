@@ -1,0 +1,38 @@
+ISim log file
+Running: C:\Users\James\Desktop\Lab3_part1\tb_lab3dpath_isim_par.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/James/Desktop/Lab3_part1/tb_lab3dpath_isim_par.wdb 
+ISim P.68d (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 800 ns
+Simulator is doing circuit initialization process.
+INFO: SDF backannotation was successful with SDF file netgen/par/lab3dpath_timesim.sdf, for root module /tb_lab3dpath/uut/.
+Finished circuit initialization process.
+PASS, x1: 080, x2: 100, x3: 3c0, y: 080
+
+PASS, x1: 00c, x2: 08b, x3: 38a, y: 08b
+
+PASS, x1: 384, x2: 0c5, x3: 3d1, y: 0d0
+
+PASS, x1: 0d0, x2: 07e, x3: 0e1, y: 376
+
+PASS, x1: 393, x2: 0f0, x3: 0b5, y: 072
+
+PASS, x1: 31d, x2: 0b2, x3: 3c7, y: 0fd
+
+PASS, x1: 3ff, x2: 02c, x3: 0e6, y: 3a9
+
+PASS, x1: 3fd, x2: 372, x3: 0df, y: 339
+
+PASS, x1: 0df, x2: 0f6, x3: 30e, y: 0a3
+
+PASS, x1: 33c, x2: 37d, x3: 0a8, y: 3bc
+
+PASS, x1: 33c, x2: 37d, x3: 0a8, y: 3bc
+
+PASS: All vectors pased.
+

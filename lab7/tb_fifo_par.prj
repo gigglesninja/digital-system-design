@@ -1,0 +1,2 @@
+verilog work "netgen/par/fifo_timesim.v"
+verilog work "tb_fifo.v"

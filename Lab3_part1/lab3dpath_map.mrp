@@ -1,0 +1,781 @@
+Release 14.6 Map P.68d (nt64)
+Xilinx Mapping Report File for Design 'lab3dpath'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off
+-c 100 -o lab3dpath_map.ncd lab3dpath.ngd lab3dpath.pcf 
+Target Device  : xc3s100e
+Target Package : cp132
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Mon Sep 08 14:36:58 2014
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:               465 out of   1,920   24%
+Logic Distribution:
+  Number of occupied Slices:            255 out of     960   26%
+    Number of Slices containing only related logic:     255 out of     255 100%
+    Number of Slices containing unrelated logic:          0 out of     255   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         489 out of   1,920   25%
+    Number used as logic:               465
+    Number used as a route-thru:         24
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 40 out of      83   48%
+
+Average Fanout of Non-Clock Nets:                1.37
+
+Peak Memory Usage:  250 MB
+Total REAL time to MAP completion:  5 secs 
+Total CPU time to MAP completion:   4 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network i1/p<23> has no load.
+INFO:LIT:395 - The above info message is repeated 35 more times for the
+   following (max. 5 shown):
+   i1/p<10>,
+   i1/p<9>,
+   i1/p<8>,
+   i1/p<7>,
+   i1/p<6>
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  91 block(s) removed
+ 199 block(s) optimized away
+  91 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "i1/p<23>" is sourceless and has been removed.
+The signal "i1/p<10>" is sourceless and has been removed.
+The signal "i1/p<9>" is sourceless and has been removed.
+The signal "i1/p<8>" is sourceless and has been removed.
+The signal "i1/p<7>" is sourceless and has been removed.
+The signal "i1/p<6>" is sourceless and has been removed.
+The signal "i1/p<5>" is sourceless and has been removed.
+The signal "i1/p<4>" is sourceless and has been removed.
+The signal "i1/p<3>" is sourceless and has been removed.
+The signal "i1/p<2>" is sourceless and has been removed.
+The signal "i1/p<1>" is sourceless and has been removed.
+The signal "i1/p<0>" is sourceless and has been removed.
+The signal "i1/blk00000001/sig00000194" is sourceless and has been removed.
+ Sourceless block "i1/blk00000001/blk00000004" (XOR) removed.
+  The signal "i1/blk00000001/sig00000105" is sourceless and has been removed.
+   Sourceless block "i1/blk00000001/blk00000156" (ROM) removed.
+    The signal "i1/blk00000001/sig00000073" is sourceless and has been removed.
+     Sourceless block "i1/blk00000001/blk00000155" (XOR) removed.
+      The signal "i1/blk00000001/sig000000d1" is sourceless and has been removed.
+       Sourceless block "i1/blk00000001/blk000000f5" (ROM) removed.
+        The signal "i1/blk00000001/sig00000033" is sourceless and has been removed.
+         Sourceless block "i1/blk00000001/blk000000f4" (XOR) removed.
+The signal "i1/blk00000001/sig000000df" is sourceless and has been removed.
+The signal "i1/blk00000001/sig000001e7" is sourceless and has been removed.
+ Sourceless block "i1/blk00000001/blk00000053" (MUX) removed.
+The signal "i1/blk00000001/sig000001f4" is sourceless and has been removed.
+The signal "i1/blk00000001/sig000001fa" is sourceless and has been removed.
+The signal "i1/blk00000001/sig00000200" is sourceless and has been removed.
+The signal "i1/blk00000001/sig00000206" is sourceless and has been removed.
+The signal "i1/blk00000001/sig0000020c" is sourceless and has been removed.
+The signal "i1/blk00000001/sig00000212" is sourceless and has been removed.
+The signal "i1/blk00000001/sig00000218" is sourceless and has been removed.
+The signal "i1/blk00000001/sig0000021e" is sourceless and has been removed.
+The signal "i1/blk00000001/sig00000224" is sourceless and has been removed.
+The signal "i1/blk00000001/sig0000022a" is sourceless and has been removed.
+The signal "i1/blk00000001/sig00000034" is sourceless and has been removed.
+The signal "i1/blk00000001/sig00000074" is sourceless and has been removed.
+The signal "i2/p<23>" is sourceless and has been removed.
+The signal "i2/p<10>" is sourceless and has been removed.
+The signal "i2/p<9>" is sourceless and has been removed.
+The signal "i2/p<8>" is sourceless and has been removed.
+The signal "i2/p<7>" is sourceless and has been removed.
+The signal "i2/p<6>" is sourceless and has been removed.
+The signal "i2/p<5>" is sourceless and has been removed.
+The signal "i2/p<4>" is sourceless and has been removed.
+The signal "i2/p<3>" is sourceless and has been removed.
+The signal "i2/p<2>" is sourceless and has been removed.
+The signal "i2/p<1>" is sourceless and has been removed.
+The signal "i2/p<0>" is sourceless and has been removed.
+The signal "i2/blk00000001/sig00000194" is sourceless and has been removed.
+ Sourceless block "i2/blk00000001/blk00000004" (XOR) removed.
+  The signal "i2/blk00000001/sig00000105" is sourceless and has been removed.
+   Sourceless block "i2/blk00000001/blk00000156" (ROM) removed.
+    The signal "i2/blk00000001/sig00000073" is sourceless and has been removed.
+     Sourceless block "i2/blk00000001/blk00000155" (XOR) removed.
+      The signal "i2/blk00000001/sig000000d1" is sourceless and has been removed.
+       Sourceless block "i2/blk00000001/blk000000f5" (ROM) removed.
+        The signal "i2/blk00000001/sig00000033" is sourceless and has been removed.
+         Sourceless block "i2/blk00000001/blk000000f4" (XOR) removed.
+The signal "i2/blk00000001/sig000000df" is sourceless and has been removed.
+The signal "i2/blk00000001/sig000001e7" is sourceless and has been removed.
+ Sourceless block "i2/blk00000001/blk00000053" (MUX) removed.
+The signal "i2/blk00000001/sig00000200" is sourceless and has been removed.
+The signal "i2/blk00000001/sig00000206" is sourceless and has been removed.
+The signal "i2/blk00000001/sig0000020c" is sourceless and has been removed.
+The signal "i2/blk00000001/sig00000212" is sourceless and has been removed.
+The signal "i2/blk00000001/sig00000218" is sourceless and has been removed.
+The signal "i2/blk00000001/sig0000021e" is sourceless and has been removed.
+The signal "i2/blk00000001/sig00000224" is sourceless and has been removed.
+The signal "i2/blk00000001/sig0000022a" is sourceless and has been removed.
+The signal "i2/blk00000001/sig00000034" is sourceless and has been removed.
+The signal "i2/blk00000001/sig00000074" is sourceless and has been removed.
+The signal "i3/p<23>" is sourceless and has been removed.
+The signal "i3/p<10>" is sourceless and has been removed.
+The signal "i3/p<9>" is sourceless and has been removed.
+The signal "i3/p<8>" is sourceless and has been removed.
+The signal "i3/p<7>" is sourceless and has been removed.
+The signal "i3/p<6>" is sourceless and has been removed.
+The signal "i3/p<5>" is sourceless and has been removed.
+The signal "i3/p<4>" is sourceless and has been removed.
+The signal "i3/p<3>" is sourceless and has been removed.
+The signal "i3/p<2>" is sourceless and has been removed.
+The signal "i3/p<1>" is sourceless and has been removed.
+The signal "i3/p<0>" is sourceless and has been removed.
+The signal "i3/blk00000001/sig00000194" is sourceless and has been removed.
+ Sourceless block "i3/blk00000001/blk00000004" (XOR) removed.
+  The signal "i3/blk00000001/sig00000105" is sourceless and has been removed.
+   Sourceless block "i3/blk00000001/blk00000156" (ROM) removed.
+    The signal "i3/blk00000001/sig00000073" is sourceless and has been removed.
+     Sourceless block "i3/blk00000001/blk00000155" (XOR) removed.
+      The signal "i3/blk00000001/sig000000d1" is sourceless and has been removed.
+       Sourceless block "i3/blk00000001/blk000000f5" (ROM) removed.
+        The signal "i3/blk00000001/sig00000033" is sourceless and has been removed.
+         Sourceless block "i3/blk00000001/blk000000f4" (XOR) removed.
+The signal "i3/blk00000001/sig000000df" is sourceless and has been removed.
+The signal "i3/blk00000001/sig000001e7" is sourceless and has been removed.
+ Sourceless block "i3/blk00000001/blk00000053" (MUX) removed.
+The signal "i3/blk00000001/sig000001f4" is sourceless and has been removed.
+The signal "i3/blk00000001/sig000001fa" is sourceless and has been removed.
+The signal "i3/blk00000001/sig00000200" is sourceless and has been removed.
+The signal "i3/blk00000001/sig00000206" is sourceless and has been removed.
+The signal "i3/blk00000001/sig0000020c" is sourceless and has been removed.
+The signal "i3/blk00000001/sig00000212" is sourceless and has been removed.
+The signal "i3/blk00000001/sig00000218" is sourceless and has been removed.
+The signal "i3/blk00000001/sig0000021e" is sourceless and has been removed.
+The signal "i3/blk00000001/sig00000224" is sourceless and has been removed.
+The signal "i3/blk00000001/sig0000022a" is sourceless and has been removed.
+The signal "i3/blk00000001/sig00000034" is sourceless and has been removed.
+The signal "i3/blk00000001/sig00000074" is sourceless and has been removed.
+Unused block "i1/blk00000001/blk00000052" (XOR) removed.
+Unused block "i1/blk00000001/blk000000a4" (XOR) removed.
+Unused block "i1/blk00000001/blk000000a6" (AND) removed.
+Unused block "i1/blk00000001/blk000000b3" (AND) removed.
+Unused block "i1/blk00000001/blk000000b9" (AND) removed.
+Unused block "i1/blk00000001/blk000000bf" (AND) removed.
+Unused block "i1/blk00000001/blk000000c5" (AND) removed.
+Unused block "i1/blk00000001/blk000000cb" (AND) removed.
+Unused block "i1/blk00000001/blk000000d1" (AND) removed.
+Unused block "i1/blk00000001/blk000000d7" (AND) removed.
+Unused block "i1/blk00000001/blk000000dd" (AND) removed.
+Unused block "i1/blk00000001/blk000000e3" (AND) removed.
+Unused block "i1/blk00000001/blk000000e9" (AND) removed.
+Unused block "i1/blk00000001/blk0000011a" (XOR) removed.
+Unused block "i1/blk00000001/blk0000011d" (XOR) removed.
+Unused block "i1/blk00000001/blk00000120" (XOR) removed.
+Unused block "i1/blk00000001/blk00000149" (XOR) removed.
+Unused block "i1/blk00000001/blk0000014c" (XOR) removed.
+Unused block "i1/blk00000001/blk0000014f" (XOR) removed.
+Unused block "i1/blk00000001/blk00000152" (XOR) removed.
+Unused block "i1/blk00000001/blk000001ca" (XOR) removed.
+Unused block "i1/blk00000001/blk000001cd" (XOR) removed.
+Unused block "i1/blk00000001/blk000001d0" (ROM) removed.
+Unused block "i2/blk00000001/blk00000052" (XOR) removed.
+Unused block "i2/blk00000001/blk000000a4" (XOR) removed.
+Unused block "i2/blk00000001/blk000000a6" (AND) removed.
+Unused block "i2/blk00000001/blk000000bf" (AND) removed.
+Unused block "i2/blk00000001/blk000000c5" (AND) removed.
+Unused block "i2/blk00000001/blk000000cb" (AND) removed.
+Unused block "i2/blk00000001/blk000000d1" (AND) removed.
+Unused block "i2/blk00000001/blk000000d7" (AND) removed.
+Unused block "i2/blk00000001/blk000000dd" (AND) removed.
+Unused block "i2/blk00000001/blk000000e3" (AND) removed.
+Unused block "i2/blk00000001/blk000000e9" (AND) removed.
+Unused block "i2/blk00000001/blk0000011a" (XOR) removed.
+Unused block "i2/blk00000001/blk0000011d" (XOR) removed.
+Unused block "i2/blk00000001/blk00000120" (XOR) removed.
+Unused block "i2/blk00000001/blk00000149" (XOR) removed.
+Unused block "i2/blk00000001/blk0000014c" (XOR) removed.
+Unused block "i2/blk00000001/blk0000014f" (XOR) removed.
+Unused block "i2/blk00000001/blk00000152" (XOR) removed.
+Unused block "i2/blk00000001/blk000001ca" (XOR) removed.
+Unused block "i2/blk00000001/blk000001cd" (XOR) removed.
+Unused block "i2/blk00000001/blk000001d0" (ROM) removed.
+Unused block "i3/blk00000001/blk00000052" (XOR) removed.
+Unused block "i3/blk00000001/blk000000a4" (XOR) removed.
+Unused block "i3/blk00000001/blk000000a6" (AND) removed.
+Unused block "i3/blk00000001/blk000000b3" (AND) removed.
+Unused block "i3/blk00000001/blk000000b9" (AND) removed.
+Unused block "i3/blk00000001/blk000000bf" (AND) removed.
+Unused block "i3/blk00000001/blk000000c5" (AND) removed.
+Unused block "i3/blk00000001/blk000000cb" (AND) removed.
+Unused block "i3/blk00000001/blk000000d1" (AND) removed.
+Unused block "i3/blk00000001/blk000000d7" (AND) removed.
+Unused block "i3/blk00000001/blk000000dd" (AND) removed.
+Unused block "i3/blk00000001/blk000000e3" (AND) removed.
+Unused block "i3/blk00000001/blk000000e9" (AND) removed.
+Unused block "i3/blk00000001/blk0000011a" (XOR) removed.
+Unused block "i3/blk00000001/blk0000011d" (XOR) removed.
+Unused block "i3/blk00000001/blk00000120" (XOR) removed.
+Unused block "i3/blk00000001/blk00000149" (XOR) removed.
+Unused block "i3/blk00000001/blk0000014c" (XOR) removed.
+Unused block "i3/blk00000001/blk0000014f" (XOR) removed.
+Unused block "i3/blk00000001/blk00000152" (XOR) removed.
+Unused block "i3/blk00000001/blk000001ca" (XOR) removed.
+Unused block "i3/blk00000001/blk000001cd" (XOR) removed.
+Unused block "i3/blk00000001/blk000001d0" (ROM) removed.
+Unused block "i1/blk00000001/blk000000f7" (MUX) removed.
+Unused block "i1/blk00000001/blk00000158" (MUX) removed.
+Unused block "i2/blk00000001/blk000000f7" (MUX) removed.
+Unused block "i2/blk00000001/blk00000158" (MUX) removed.
+Unused block "i3/blk00000001/blk000000f7" (MUX) removed.
+Unused block "i3/blk00000001/blk00000158" (MUX) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+VCC 		i1/blk00000001/blk00000002
+GND 		i1/blk00000001/blk00000003
+LUT4 		i1/blk00000001/blk000001d3
+   optimized to 1
+LUT4 		i1/blk00000001/blk000001d4
+   optimized to 1
+LUT4 		i1/blk00000001/blk000001d5
+   optimized to 1
+LUT4 		i1/blk00000001/blk000001d6
+   optimized to 1
+LUT4 		i1/blk00000001/blk000001d7
+   optimized to 1
+LUT4 		i1/blk00000001/blk000001d8
+   optimized to 1
+LUT4 		i1/blk00000001/blk000001d9
+   optimized to 1
+LUT4 		i1/blk00000001/blk000001da
+   optimized to 1
+LUT4 		i1/blk00000001/blk000001db
+   optimized to 1
+LUT4 		i1/blk00000001/blk000001dc
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001dd
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001de
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001df
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001e0
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001e1
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001e2
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001e3
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001e4
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001e9
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001ea
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001eb
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001ec
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001ed
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001ee
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001ef
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001f0
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001f1
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001f6
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001f7
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001f8
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001f9
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001fa
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001fb
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001fc
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001fd
+   optimized to 0
+LUT4 		i1/blk00000001/blk000001fe
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000203
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000204
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000205
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000206
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000207
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000208
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000209
+   optimized to 0
+LUT4 		i1/blk00000001/blk0000020a
+   optimized to 0
+LUT4 		i1/blk00000001/blk0000020b
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000210
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000211
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000212
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000213
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000214
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000215
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000216
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000217
+   optimized to 0
+LUT4 		i1/blk00000001/blk00000218
+   optimized to 0
+LUT3 		i1/blk00000001/blk00000219
+   optimized to 0
+LUT3 		i1/blk00000001/blk0000021a
+   optimized to 0
+LUT4 		i1/blk00000001/blk0000021b
+   optimized to 0
+LUT4 		i1/blk00000001/blk0000021c
+   optimized to 0
+LUT2 		i1/blk00000001/blk0000021d
+   optimized to 1
+LUT2 		i1/blk00000001/blk0000021e
+   optimized to 0
+LUT2 		i1/blk00000001/blk0000021f
+   optimized to 0
+LUT2 		i1/blk00000001/blk00000220
+   optimized to 0
+LUT2 		i1/blk00000001/blk00000221
+   optimized to 0
+LUT2 		i1/blk00000001/blk00000222
+   optimized to 0
+VCC 		i2/blk00000001/blk00000002
+GND 		i2/blk00000001/blk00000003
+LUT4 		i2/blk00000001/blk000001d3
+   optimized to 1
+LUT4 		i2/blk00000001/blk000001d5
+   optimized to 1
+LUT4 		i2/blk00000001/blk000001d6
+   optimized to 1
+LUT4 		i2/blk00000001/blk000001d7
+   optimized to 1
+LUT4 		i2/blk00000001/blk000001d8
+   optimized to 1
+LUT4 		i2/blk00000001/blk000001da
+   optimized to 1
+LUT4 		i2/blk00000001/blk000001db
+   optimized to 1
+LUT4 		i2/blk00000001/blk000001de
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001df
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001e0
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001e1
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001e2
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001e3
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001e4
+   optimized to 0
+LUT3 		i2/blk00000001/blk000001e5
+   optimized to 0
+LUT3 		i2/blk00000001/blk000001e6
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001eb
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001ec
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001ed
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001ee
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001ef
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001f0
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001f1
+   optimized to 0
+LUT3 		i2/blk00000001/blk000001f2
+   optimized to 0
+LUT3 		i2/blk00000001/blk000001f3
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001f8
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001f9
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001fa
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001fb
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001fc
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001fd
+   optimized to 0
+LUT4 		i2/blk00000001/blk000001fe
+   optimized to 0
+LUT3 		i2/blk00000001/blk000001ff
+   optimized to 0
+LUT3 		i2/blk00000001/blk00000200
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000205
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000206
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000207
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000208
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000209
+   optimized to 0
+LUT4 		i2/blk00000001/blk0000020a
+   optimized to 0
+LUT4 		i2/blk00000001/blk0000020b
+   optimized to 0
+LUT3 		i2/blk00000001/blk0000020c
+   optimized to 0
+LUT3 		i2/blk00000001/blk0000020d
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000210
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000211
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000212
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000213
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000214
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000215
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000216
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000217
+   optimized to 0
+LUT4 		i2/blk00000001/blk00000218
+   optimized to 0
+LUT3 		i2/blk00000001/blk00000219
+   optimized to 0
+LUT3 		i2/blk00000001/blk0000021a
+   optimized to 0
+LUT4 		i2/blk00000001/blk0000021b
+   optimized to 0
+LUT4 		i2/blk00000001/blk0000021c
+   optimized to 0
+LUT2 		i2/blk00000001/blk0000021d
+   optimized to 1
+LUT2 		i2/blk00000001/blk0000021e
+   optimized to 0
+LUT2 		i2/blk00000001/blk0000021f
+   optimized to 0
+LUT2 		i2/blk00000001/blk00000220
+   optimized to 0
+LUT2 		i2/blk00000001/blk00000221
+   optimized to 0
+LUT2 		i2/blk00000001/blk00000222
+   optimized to 0
+LUT3 		i2/blk00000001/blk00000223
+   optimized to 1
+VCC 		i3/blk00000001/blk00000002
+GND 		i3/blk00000001/blk00000003
+LUT4 		i3/blk00000001/blk000001d3
+   optimized to 1
+LUT4 		i3/blk00000001/blk000001d4
+   optimized to 1
+LUT4 		i3/blk00000001/blk000001d5
+   optimized to 1
+LUT4 		i3/blk00000001/blk000001d6
+   optimized to 1
+LUT4 		i3/blk00000001/blk000001d7
+   optimized to 1
+LUT4 		i3/blk00000001/blk000001d8
+   optimized to 1
+LUT4 		i3/blk00000001/blk000001d9
+   optimized to 1
+LUT4 		i3/blk00000001/blk000001da
+   optimized to 1
+LUT4 		i3/blk00000001/blk000001db
+   optimized to 1
+LUT4 		i3/blk00000001/blk000001dc
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001dd
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001de
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001df
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001e0
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001e1
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001e2
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001e3
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001e4
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001e9
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001ea
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001eb
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001ec
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001ed
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001ee
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001ef
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001f0
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001f1
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001f6
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001f7
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001f8
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001f9
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001fa
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001fb
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001fc
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001fd
+   optimized to 0
+LUT4 		i3/blk00000001/blk000001fe
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000203
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000204
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000205
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000206
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000207
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000208
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000209
+   optimized to 0
+LUT4 		i3/blk00000001/blk0000020a
+   optimized to 0
+LUT4 		i3/blk00000001/blk0000020b
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000210
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000211
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000212
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000213
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000214
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000215
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000216
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000217
+   optimized to 0
+LUT4 		i3/blk00000001/blk00000218
+   optimized to 0
+LUT3 		i3/blk00000001/blk00000219
+   optimized to 0
+LUT3 		i3/blk00000001/blk0000021a
+   optimized to 0
+LUT4 		i3/blk00000001/blk0000021b
+   optimized to 0
+LUT4 		i3/blk00000001/blk0000021c
+   optimized to 0
+LUT2 		i3/blk00000001/blk0000021d
+   optimized to 1
+LUT2 		i3/blk00000001/blk0000021e
+   optimized to 0
+LUT2 		i3/blk00000001/blk0000021f
+   optimized to 0
+LUT2 		i3/blk00000001/blk00000220
+   optimized to 0
+LUT2 		i3/blk00000001/blk00000221
+   optimized to 0
+LUT2 		i3/blk00000001/blk00000222
+   optimized to 0
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| x1<0>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x1<1>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x1<2>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x1<3>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x1<4>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x1<5>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x1<6>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x1<7>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x1<8>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x1<9>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x2<0>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x2<1>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x2<2>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x2<3>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x2<4>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x2<5>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x2<6>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x2<7>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x2<8>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x2<9>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x3<0>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x3<1>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x3<2>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x3<3>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x3<4>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x3<5>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x3<6>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x3<7>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x3<8>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| x3<9>                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| y<0>                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| y<1>                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| y<2>                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| y<3>                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| y<4>                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| y<5>                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| y<6>                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| y<7>                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| y<8>                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| y<9>                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

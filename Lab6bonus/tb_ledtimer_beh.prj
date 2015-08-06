@@ -1,4 +1,0 @@
-verilog work "timer32.v"
-verilog work "ledtimer.v"
-verilog work "tb_ledtimer.v"
-verilog work "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

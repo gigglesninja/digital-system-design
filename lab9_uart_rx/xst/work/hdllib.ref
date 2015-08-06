@@ -1,3 +1,0 @@
-MO baudgen NULL baudgen.v vlg76/baudgen.bin 1414981538
-MO uart_rx NULL uart_rx.v vlg21/uart__rx.bin 1414981538
-MO fifo_rx NULL ipcore_dir/fifo_rx.v vlg05/fifo__rx.bin 1414981538

@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/James/Desktop/iDriveSync/IDrive-Sync/spi/tb_spi_bonus_isim_par.exe" -prj "C:/Users/James/Desktop/iDriveSync/IDrive-Sync/spi/tb_spi_bonus_par.prj" "work.tb_spi_bonus" "work.glbl" 

@@ -1,8 +1,0 @@
-verilog work "../lab9_uart_rx/ipcore_dir/fifo_rx.v"
-verilog work "../lab8_uart_tx/ipcore_dir/fifo.v"
-verilog work "../lab8_uart_tx/baudgen.v"
-verilog work "../lab9_uart_rx/uart_rx.v"
-verilog work "../lab8_uart_tx/uart_tx.v"
-verilog work "uart.v"
-verilog work "tb_uart.v"
-verilog work "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,7 +1,0 @@
-MO fifo_tx NULL ipcore_dir/fifo_tx.v vlg0F/fifo__tx.bin 1414450869
-MO baudgen NULL baudgen.v vlg76/baudgen.bin 1414469538
-MO fifo NULL ../../../../jct322_lab8/lab8/ipcore_dir/fifo.v vlg7C/fifo.bin 1414469538
-MO uart NULL uart.v vlg48/uart.bin 1414469538
-MO uart_rx NULL uart_rx.v vlg21/uart__rx.bin 1414469538
-MO uart_tx NULL ../../../../jct322_lab8/lab8/uart_tx.v vlg2B/uart__tx.bin 1414469538
-MO fifo_rx NULL ipcore_dir/fifo_rx.v vlg05/fifo__rx.bin 1414469538

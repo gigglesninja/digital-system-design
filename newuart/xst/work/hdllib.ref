@@ -1,6 +1,0 @@
-MO baudgen NULL ../lab8_uart_tx/baudgen.v vlg76/baudgen.bin 1414881942
-MO fifo NULL ../lab8_uart_tx/ipcore_dir/fifo.v vlg7C/fifo.bin 1414881942
-MO uart NULL uart.v vlg48/uart.bin 1414881942
-MO uart_rx NULL ../lab9_uart_rx/uart_rx.v vlg21/uart__rx.bin 1414881942
-MO uart_tx NULL ../lab8_uart_tx/uart_tx.v vlg2B/uart__tx.bin 1414881942
-MO fifo_rx NULL ../lab9_uart_rx/ipcore_dir/fifo_rx.v vlg05/fifo__rx.bin 1414881942

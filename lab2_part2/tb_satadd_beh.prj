@@ -1,4 +1,0 @@
-verilog work "ipcore_dir/add13bit.v"
-verilog work "satadd.v"
-verilog work "tb_satadd.v"
-verilog work "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

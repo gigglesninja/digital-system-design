@@ -1,2 +1,0 @@
-verilog work "netgen/par/uart_rx_timesim.v"
-verilog work "../../../../jct322_lab9/lab9_uart_rx/tb_uart_rx.v"

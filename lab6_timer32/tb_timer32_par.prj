@@ -1,2 +1,0 @@
-verilog work "netgen/par/timer32_timesim.v"
-verilog work "tb_timer32.v"

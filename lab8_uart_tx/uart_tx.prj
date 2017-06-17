@@ -1,3 +1,0 @@
-verilog work "ipcore_dir/fifo.v"
-verilog work "baudgen.v"
-verilog work "uart_tx.v"
